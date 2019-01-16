@@ -1,0 +1,111 @@
+#container{
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:990px;
+	height:100%;
+	
+}
+
+#top{
+	
+	width:400px;
+	height:400px;
+	float:left;
+	margin-left:30px;
+	
+}
+
+#right{
+	width:400px;
+	height:400px;
+	
+	float:left;
+	margin-top:60px;
+	text-align:justify;
+}
+
+
+#body{
+	width:990px;
+	height:900px;
+	
+	
+}
+
+#donationBlock1{
+	
+	float:left;
+	width: 300px;
+	margin-left: 60px;
+	margin-top: -30px;
+	
+}
+
+#donationBlock2{
+	
+	float:left;
+	margin-left: 40px;
+	border-left: 1px solid black;
+	margin-top: -30px;
+	
+	
+}
+
+#Container{
+	
+	width:990px;
+	height:780px;
+	float: center;
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #eeeeee;
+	
+}
+
+#ContainerMain{
+	
+	width:900px;
+	height: 700px;
+	margin:20px;
+	margin-left: 45px;
+	margin-top: 30px;
+	float: left;
+	background-color: #dddddd;
+	
+}
+
+.button {
+	
+	width: 270px;
+	height: 50px;
+	background-color: #1883ff;
+	border: 0px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	float: left;
+		
+}
+
+.button:hover {
+
+    background-color: white;
+    color: black;
+	box-shadow: 0 0 20px #1883ff;
+   	
+}
+
+.button:active {
+	
+	background-color:#22aa55;
+	box-shadow: 0 0 20px #22aa55;
+	color: white;
+	
+}
+
+.word{
+	
+	margin-left:20px;
+}

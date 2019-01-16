@@ -1,0 +1,103 @@
+#HeroImage{
+	
+	width:990px;
+	height:380px;
+	margin: auto;
+
+}
+
+#Container{
+	
+	width:990px;
+	height: 650px;
+	margin: auto;
+	margin-top: -21px;
+	float: center;
+	font-family:arial;
+	background-color: #eeeeee;
+	
+}
+
+#Image1{
+	
+	width:200px;
+	height:200px;
+	float:left;
+	margin-top:20px;
+	margin-left:150px;
+	
+}
+
+#Image2{
+	
+	width:200px;
+	height:200px;
+	float:left;
+	margin-top:20px;
+	margin-left:45px;
+	
+}
+
+#Image3{
+	
+	width:200px;
+	height:200px;
+	float:left;
+	margin-top:20px;
+	margin-left:45px;	
+	
+}
+
+#Image4{
+	
+	width:200px;
+	height:200px;
+	float:left;
+	margin-left:150px;
+	margin-top:70px;
+	
+}
+
+#Image5{
+	
+	width:200px;
+	height:200px;
+	float:left;
+	margin-left:45px;
+	margin-top:70px;
+	
+}
+
+#Image6{
+	
+	width:200px;
+	height:200px;
+	float:left;
+	margin-left:45px;
+	margin-top:70px;	
+	
+}
+
+#Image1:hover{
+	opacity:0.8;
+}
+
+#Image2:hover{
+	opacity:0.8;
+}
+
+#Image3:hover{
+	opacity:0.8;
+}
+
+#Image4:hover{
+	opacity:0.8;
+}
+
+#Image5:hover{
+	opacity:0.8;
+}
+
+#Image6:hover{
+	opacity:0.8;
+}

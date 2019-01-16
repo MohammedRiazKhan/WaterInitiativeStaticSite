@@ -1,0 +1,85 @@
+#Container{
+	
+	width:990px;
+	height:auto;
+	margin: auto;
+	background-color: #eeeeee;
+	
+}
+
+#SignUp {
+	
+	border:1px solid black;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-family: arial;
+	background-color: #eeeeee;
+}
+
+#space {
+	
+	width: 990px;
+	height: 20px;
+	margin: auto;
+	
+}
+
+#Login {
+	
+	border:1px solid black;
+	margin:auto;
+	width:50%;
+	text-align:center;
+	font-family: arial;
+	background-color: #eeeeee;
+	
+}
+
+#HLink {
+	
+	color:#00CED1;
+}
+
+#HLink:hover {
+	background-color: #00CED1;
+	color: white;
+}
+
+.button {
+	
+	width: 270px;
+	height: 50px;
+	background-color: #1883ff;
+	border: 0px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+			
+}
+
+.button:hover {
+
+    background-color: white;
+    color: black;
+	box-shadow: 0 0 20px #1883ff;
+   	
+}
+
+.button:active {
+	
+	background-color:#22aa55;
+	box-shadow: 0 0 20px #22aa55;
+	color: white;
+	
+}
+
+.suActive {
+	
+	background-color: #22aa55;
+	border-radius: 8px;
+	color: white;
+	padding: 8px 20px;
+	
+}

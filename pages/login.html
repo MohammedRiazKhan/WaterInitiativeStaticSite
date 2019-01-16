@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fresh Water Initiative</title>
+		<link type="text/css" rel="stylesheet" href="../css/home.css"/>
+		<link type="text/css" rel="stylesheet" href="../css/signUp&login.css"/>
+		<link rel="icon" type="image/png"  href="images/favicon.jpg">
+		
+		<script>
+			function validate()
+			{
+				if document.myForm.Username.value == " ")
+				{
+					alert("Please provide your Name");
+					document.myForm.Username.focus();
+					return false;
+				}
+				
+				else 
+				{
+					alert("You have successully logged in!");
+				}
+				
+				if document.myForm.Password.value == " ")
+				{
+					alert("Please provide your Surname");
+					document.myForm.Password.focus();
+					return false;
+				}
+				
+				else 
+				{
+					alert("You have successully logged in!");
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+		<div id="Header">
+				
+					<div id="Logo">
+						<a href="../index.html"><img src="../images/Fresh Water Initiative Logo.jpg" alt="Logo" width="100%" height="100%"/></a>
+					</div>
+					
+					<div id="LinkSignUp">
+						<a href="../pages/signUp.html"><img src="../images/SignUpBtn.jpg" alt="Sign Up" width="100%" height="100%"/></a>
+					</div>
+					
+					<ul style="background-color: none; float: left; margin: 0px; padding: 0px; list-style-type: none; overflow: hidden; font-size: 20px">
+		  
+				       	<li style="float: left"><a href="../index.html" class="headlinks">Home</a></li>
+						<li style="float: left"><a href="../pages/aboutUs.html" class="headlinks">About</a></li>
+			            <li style="float: left"><a href="../pages/gallery.html" class="headlinks">Media</a></li>
+						<li style="float: left"><a href="../pages/login.html" class="active">Login</a></li>
+			            <li style="float: left"><a href="../pages/donations.html" class="headlinks">Get Involved</a></li>
+		                <li style="float: left"><a href="../pages/contactUs.html" class="headlinks">Contact</a></li>
+								
+					</ul>
+		</div>
+		
+		<div id="Container">
+		
+		<div id="space"></div>
+	
+		<div id ="Login">
+			<h1>Login</h1>
+			<p>or   <a href="signUp.html" id="HLink"><b>Sign Up</b></a> </p>
+			
+			<br>
+			<br>
+			
+			<form name = "myForm" onsubmit="return validate()">
+				<p>Username: </p><input type = "text" name = "Username">
+			
+				<p>Password: </p><input type = "text" name = "Password">
+			
+			</br>
+			</br>
+			
+				<input class="button" type = "submit" value = "Login">
+			</form>
+			<br>
+			<br>
+			<br>
+		</div>
+		
+			<div id="space"></div>
+		
+		</div>
+		
+		<div id="Footer">
+		<div id="FootLeft">
+				<p>Sign Up For Our Newsletter</p>
+						<input class="Email" name="newsSignUp" type="text" placeholder="Email Address" style="text-align: center" ></input> 
+						<input class="Btn" name="Submit" value="Submit" type="Button"></input>
+						<p>&copy; The Fresh Water Initiative 2017</p>
+			</div>
+			
+			<div id="FootCenter">
+				<p>Follow Us On</p>
+				<a href="../pages/error.html" alt="Facebbok Page Link"><img src="../images/facebook.png" alt="Facebook Page Link"/></a>
+				<a href="../pages/error.html" alt="Twitter Page Link"><img src="../images/twitter.png" alt="Twitter Page Link"/></a>
+				<a href="../pages/error.html" alt="Instagram Page Link"><img src="../images/download.png" alt="Instagram Page Link"/></a>
+				<p>Contact Us:</br>TFWI@gmail.com</br>(021) 685-1245</p>
+			</div>
+			
+			<div id="FootRight">
+				<center>
+				
+				                        </br>
+												<a href="../index.html">Home</a>
+										</br>
+										</br>
+												<a href="../pages/aboutUs.html">About</a>
+										</br>
+										</br>
+												<a href="../pages/gallery.html">Media</a>
+										</br>
+										</br>
+												<a href="../pages/login.html" class="ftactive">Login</a>
+										</br>
+										</br>
+												<a href="../pages/donations.html">Get Involved</a>
+										</br>
+										</br>
+												<a href="../pages/contactUs.html">Contact</a>
+										</br>
+				</center>
+			</div>
+		
+	</div>
+	</body>
+</html>
